@@ -1,0 +1,42 @@
+/* <div class="col1">第一區</div>
+    <div class="col2">第二區</div>
+    <div class="col3">第三區</div>
+    <div class="col4">第四區</div>
+    <div class="col5">第五區</div>
+    <div class="col6">第六區</div> */
+
+
+body {
+    width: 100%;
+    min-width: 600px;
+    max-width: 960px;
+    /* height: 640px; */
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: brown; */
+
+}
+header{
+    margin: 1%;
+    padding: 10px;
+    background-color: bisque;
+}
+main{
+    width: 100%;
+}
+
+.photo{
+    /* background-color: aqua; */
+    float: left;
+    width: 31%;
+    margin: 1%;
+    border: 1px solid blueviolet;
+    
+
+}
+footer{
+    clear: left;
+    margin: 1%;
+    padding: 10px;
+    /* background-color: antiquewhite; */
+}
